@@ -1,0 +1,159 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url("fondo.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.cajalogin{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 420px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0, .5);
+}
+
+.caja{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	color: 	#ffffff;
+	text-align: center;
+	
+}
+
+h2{
+	margin: 0;
+	padding: 0 0 20px;
+	color: 	#ffffff;
+	text-align: center;
+	
+}
+
+h4{
+	margin: 0;
+	padding: 0 0 20px;
+	color: 	#ffffff;
+	text-align: center;
+	
+}
+
+
+p{
+	margin: 0;
+	padding: 0 0 20px;
+	color: 	#ffffff;
+	
+}
+
+.cajalogin p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: 	#ffffff
+}
+
+
+#navi ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+#navi ul li{
+	float: left;
+}	
+	
+#navi div{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+#navi div{
+	float: left;
+}	
+	
+
+
+
+
+#navi a{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 12px 26px;
+	font-family:"Oswald";
+	font-size: 18px;
+	
+}
+
+#menu{
+	background: rgba(102,102,102,1);
+	width: 1000px;
+	height: 52px;
+}
+
+#post1{
+	position: absolute;
+	top: 65%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 490px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0, .5);
+	
+}
+
+#foto1{
+    
+	height: 500px;
+}
+
+.cajaform{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 420px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0, .5);
+}
+
+table{
+    box-align: center;
+}
+.egt{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: goldenrod;
+    
+}
+.egt table,td{
+   
+    
+    align-content: center;
+    border:1px solid gray;
+}
+
